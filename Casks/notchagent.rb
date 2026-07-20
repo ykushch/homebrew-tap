@@ -15,8 +15,8 @@ cask "notchagent" do
   caveats <<~EOS
     NotchAgent requires herdr to be installed and running.
 
-    If macOS blocks the ad-hoc-signed app, reinstall with:
-      brew install --cask --no-quarantine ykushch/tap/notchagent
+    If macOS blocks the ad-hoc-signed app, remove its quarantine attribute with:
+      xattr -dr com.apple.quarantine /Applications/NotchApp.app
 
     Grant Notch Agent access in:
       System Settings → Privacy & Security → Accessibility

@@ -1,6 +1,6 @@
 cask "notchagent" do
-  version "0.6.5"
-  sha256 "e7df0c5063b1fb2c82990e64d3afcfd2cd367e7079b2ccf52cecbe3f9a751147"
+  version "0.6.6"
+  sha256 "6695ae39f491fe37605d68487cd721f212d2435af5c4ae339ec5f9315ec2d7af"
 
   url "https://github.com/ykushch/notchagent/releases/download/v#{version}/NotchApp-#{version}.zip"
   name "NotchAgent"
